@@ -15,7 +15,7 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 def words_five_letters_long(text)
-  if text.scan(/\b[a-zA-z]{5}\b/)
+  if text.scan(/\b\w{5}\b/)
     return true
   else
     return false
